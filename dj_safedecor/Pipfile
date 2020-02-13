@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+
+[packages]
+django = "*"
+django-rest-framework = "*"
+mysqlclient = "*"
+pillow = "*"
+django-cors-headers = "*"
+xhtml2pdf = "*"
+
+[requires]
+python_version = "3.5"
